@@ -1,7 +1,7 @@
-import video from "../data/video.js";
-
+import video from "../data/video.js"
+import TitleContainer from "./TitleContainer"
 function App() {
-  console.log("Here's your data:", video);
+  console.log("Here's your data:", video)
 
   return (
     <div className="App">
@@ -13,8 +13,14 @@ function App() {
         allowFullScreen
         title="Thinking in React"
       />
+      <TitleContainer
+        views={video.views}
+        created={video.createdAt}
+        title={video.title}
+        comments={video.comments}
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

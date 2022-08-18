@@ -10,14 +10,29 @@ const video = {
     {
       id: 1,
       user: "duanebot",
-      comment: "first!",
+      comment: "What a classic song!",
     },
     {
       id: 2,
       user: "gaeron",
-      comment: "What a great tutorial!",
+      comment: "Did I seriously just get rick-rolled?!",
+    },
+    {
+      id: 3,
+      user: "Kyle",
+      comment: "Rick is amazing...",
+    },
+    {
+      id: 4,
+      user: "Rick",
+      comment: "Amazing name, Rick!",
+    },
+    {
+      id: 5,
+      user: "fanboy69420",
+      comment: "Where can I download this? iTunes?",
     },
   ],
-};
+}
 
-export default video;
+export default video
